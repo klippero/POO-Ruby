@@ -1,0 +1,27 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Local File",
+            "type": "Ruby",
+            "request": "launch",
+            "program": "${workspaceRoot}/main.rb"
+        },
+        {
+            "type": "rdbg",
+            "name": "Debug current file with rdbg",
+            "request": "launch",
+            "script": "${file}",
+            "args": [],
+            "askParameters": true
+        },
+        {
+            "type": "rdbg",
+            "name": "Attach with rdbg",
+            "request": "attach"
+        }
+    ]
+}
